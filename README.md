@@ -91,7 +91,7 @@ After the cloudtty is intergated to your own UI, it would look like:
 
 Most users need more than just the basic `kubectl` tools to manage their clusters. we can customize image based on cloudshell base image. here is an example of adding the `karmadactl` tool.
 
-- Modify [Dockerfile.example](https://github.com/cloudtty/cloudtty/blob/main/docker/Dockerfile.example).
+- Use [Dockerfile.example](https://github.com/cloudtty/cloudtty/blob/main/docker/Dockerfile.example), which already includes the `karmadactl` tool.
 
   ```shell
   FROM ghcr.io/cloudtty/cloudshell:v0.6.0
